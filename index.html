@@ -41,6 +41,9 @@
         <li class="nav-item">
           <a href="#what-next" class="nav-link">What's Next?</a>
         </li>
+        <li class="nav-item">
+          <a href="#reference" class="nav-link">Reference</a>
+        </li>
       </ul>
     </nav>
     <main id="main-doc">
@@ -72,29 +75,37 @@
       </section>
       <section class="main-section" id="history">
         <header>React.JS History</header>
-        <p>Current version of React.JS is V18.0.0 (April 2022).</p>
-        <p>Initial Release to the Public (V0.3.0) was in July 2013.</p>
-        <p>React.JS was first used in 2011 for Facebook's Newsfeed feature.</p>
-        <p>Facebook Software Engineer, Jordan Walke, created it.</p>
-        <p>Current version of create-react-app is v5.0.1 (April 2022).</p>
-        <p>
-          create-react-app includes built tools such as webpack, Babel, and
-          ESLint.
-        </p>
+        <ul>
+          <li>Current version of React.JS is V18.0.0 (April 2022).</li>
+          <li>Initial Release to the Public (V0.3.0) was in July 2013.</li>
+          <li>
+            React.JS was first used in 2011 for Facebook's Newsfeed feature.
+          </li>
+          <li>Facebook Software Engineer, Jordan Walke, created it.</li>
+          <li>
+            Current version of <code>create-react-app</code> is v5.0.1 (April
+            2022).
+          </li>
+          <li>
+            <code>create-react-app</code> includes built tools such as webpack,
+            Babel, and ESLint.
+          </li>
+        </ul>
       </section>
       <section class="main-section" id="environment">
         <header>Setting up a React Environment</header>
         <p>
           If you have npx and Node.js installed, you can create a React
-          application by using create-react-app.
+          application by using <code>create-react-app</code>.
         </p>
         <p>
-          If you've previously installed create-react-app globally, it is
-          recommended that you uninstall the package to ensure npx always uses
-          the latest version of create-react-app.
+          If you've previously installed <code>create-react-app</code> globally,
+          it is recommended that you uninstall the package to ensure npx always
+          uses the latest version of <code>create-react-app</code>.
         </p>
         <p>
-          To uninstall, run this command: npm uninstall -g create-react-app.
+          To uninstall, run this command:
+          <code>npm uninstall -g create-react-app</code>.
         </p>
         <p>
           Run this command to create a React application named my-react-app:
@@ -111,18 +122,24 @@
       <section class="main-section" id="run-react">
         <header>Run the React Application</header>
         <p>Now you are ready to run your first real React application!</p>
-        <p>Run this command to move to the my-react-app directory:</p>
+        <p>
+          Run this command to move to the <code>my-react-app</code> directory:
+        </p>
         <p>
           <code>cd my-react-app</code>
         </p>
-        <p>Run this command to run the React application my-react-app:</p>
+        <p>
+          Run this command to run the React application
+          <code>my-react-app</code>:
+        </p>
 
         <p>
           <code>npm start</code>
         </p>
         <p>
           A new browser window will pop up with your newly created React App! If
-          not, open your browser and type localhost:3000 in the address bar.
+          not, open your browser and type <code>localhost:3000</code> in the
+          address bar.
         </p>
         <p>The result:</p>
         <img
@@ -134,9 +151,9 @@
         <header>Modify the React Application</header>
         <p>So far so good, but how do I change the content?</p>
         <p>
-          Look in the my-react-app directory, and you will find a src folder.
-          Inside the src folder there is a file called App.js, open it and it
-          will look like this:
+          Look in the <code>my-react-app</code> directory, and you will find a
+          <code>src</code> folder. Inside the src folder there is a file called
+          <code>App.js</code>, open it and it will look like this:
         </p>
 
         <p>/myReactApp/src/App.js:</p>
@@ -166,7 +183,6 @@
             }
             
             export default App;
-
           </pre
         >
         <p>Try changing the HTML content and save the file.</p>
@@ -177,7 +193,8 @@
         <p>Example</p>
         <p>
           Replace all the content inside the
-          <code>div className="App"</code> with a <code>h1</code> element.
+          <code> &lt;div className="App"&gt;</code> with a
+          <code> &lt;h1&gt;</code> element.
         </p>
         <p>See the changes in the browser when you click Save.</p>
         <pre>
@@ -214,14 +231,14 @@
         </p>
         <p>
           If you want to follow the same steps on your computer, start by
-          stripping down the src folder to only contain one file: index.js. You
-          should also remove any unnecessary lines of code inside the index.js
-          file to make them look like the example in the "Show React" tool
-          below:
+          stripping down the <code>src</code> folder to only contain one file:
+          <code>index.js</code>. You should also remove any unnecessary lines of
+          code inside the <code>index.js</code> file to make them look like the
+          example in the "Show React" tool below:
         </p>
         <p>Example</p>
         <p>Click the "Run Example" button to see the result.</p>
-        <p>index.js:</p>
+        <p><code>index.js</code> :</p>
         <pre>
           import React from 'react';
           import ReactDOM from 'react-dom/client';
@@ -230,11 +247,9 @@
 
           const root = ReactDOM.createRoot(document.getElementById('root'));
           root.render(myFirstElement);
-
-
         </pre>
       </section>
-      <section class="main-section">
+      <section class="main-section" id="reference">
         <header>Reference</header>
         <p>
           All the documentation in this page is taken from
