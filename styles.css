@@ -3,11 +3,12 @@
 * {
   margin: 0;
   font-family: 'Comme', sans-serif;
+  scroll-behavior: smooth;
 }
 
 header {
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 #navbar {
@@ -75,6 +76,13 @@ hr {
 img {
   width: 100%;
   height: auto;
+  padding: 0 40vh;
+}
+
+@media screen and (max-width: 1200px) {
+  img {
+    padding: 0 0;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -89,8 +97,7 @@ img {
     margin-left: 30vh;
   }
   img {
-    width: 100%;
-    height: auto;
+    padding: 0 0;
   }
   #main-doc p {
     font-size: small;
@@ -103,9 +110,27 @@ img {
 @media screen and (max-width: 500px) {
   #navbar {
     width: 15vh;
+    font-size: 2.5vw;
   }
 
   #main-doc {
     margin-left: 20vh;
   }
+  img {
+    padding: 0 0;
+  }
+  .nav-link {
+    margin: 5px 0;
+    padding: 5px;
+  }
+}
+
+pre {
+  background: #1a1d1f;
+  color: #f7f7f7;
+  font-size: 12px;
+  border-radius: 10px;
+  padding-top: 1rem;
+  border-left: 3px solid #f36d33;
+  page-break-inside: avoid;
 }
