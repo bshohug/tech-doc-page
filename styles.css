@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Comme&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comme&display=swap");
 
 * {
   margin: 0;
-  font-family: 'Comme', sans-serif;
+  font-family: "Comme", sans-serif;
   scroll-behavior: smooth;
 }
 
 header {
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 #navbar {
